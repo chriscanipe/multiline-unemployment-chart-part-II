@@ -1,0 +1,100 @@
+/* font-family properties for the Google fonts we're loading
+---------------------------------------------------------------
+sans: "Source Sans Pro", Helvetica, Arial, sans-serif !default;
+serif: "Domine", Georgia, serif !default;
+*/
+
+#main-wrapper {
+    width: 100%;
+    max-width: 900px;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+h1.headline {
+  margin: 0;
+}
+
+p.dek {
+  margin: 10px 0;
+}
+
+.chart {
+  width: 100%;
+  height: 500px;
+}
+
+.axis text {
+  fill: #333;
+  pointer-events: none;
+}
+
+.axis .tick text {
+  font-size: 12px;
+}
+
+.axis line, .axis path {
+  stroke: #999;
+  stroke-width: 0.5;
+  pointer-events: none;
+}
+
+.axis .domain {
+  display: none;
+}
+
+
+.line-group path {
+  fill: none;
+  stroke-width: 2;
+}
+
+.line-group.UNRATE path {
+  stroke: #999;
+}
+
+.line-group.MOUR path {
+  stroke: #7e8083;
+}
+
+.line-group.CLMUR path {
+  stroke: #f58667;
+}
+
+.line-group.UNRATE text {
+  fill: #999;
+}
+
+.line-group.MOUR text {
+  fill: #7e8083;
+}
+
+.line-group.CLMUR text {
+  fill: #f58667;
+}
+
+.line-group.UNRATE circle {
+  fill: #999;
+  stroke: white;
+  stroke-width: 1;
+}
+
+.line-group.MOUR circle {
+  fill: #7e8083;
+  stroke: white;
+  stroke-width: 1;
+}
+
+.line-group.CLMUR circle {
+  fill: #f58667;
+  stroke: white;
+  stroke-width: 1;
+}
+
+.recession {
+  fill: #EEE;
+}
+
+
+/*"UNRATE": "#f6f6f6",
+        "MOUR": "#7e8083",
+        "CLMUR": "#f58667"*/
